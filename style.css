@@ -55,6 +55,14 @@ i {
   line-height: 1.6em
 }
 
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .container {
   width: 500px;
   margin: 30px auto;
