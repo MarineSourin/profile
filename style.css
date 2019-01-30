@@ -34,7 +34,7 @@ img {
   width: 80px;
 }
 
-li {
+.list-inline li {
   display: inline-block;
   padding: 30px;
 }
@@ -56,11 +56,38 @@ i {
 }
 
 #sidebar {
+  background-color: #488b8f;
   position: fixed;
-  width: 300px;
+  width: 150px;
   left: 0;
   top: 0;
   bottom: 0;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+#page-content {
+  margin-left: 150px;
+}
+
+#summary {
+
+}
+
+#programming {
+
+}
+
+#footer {
+
 }
 
 .container {
